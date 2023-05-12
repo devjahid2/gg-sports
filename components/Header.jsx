@@ -33,7 +33,7 @@ const Header = () => {
         </nav>
         <div className='logo-wrap'>
           <div className="menu" onClick={() => setLeftMenu(true)}>
-            <Image width={26} height={100} src={'/menu.png'}/>
+            <Image width={26} height={100} src={'/menu-0.png'}/>
           </div>
           <Image alt='logo' src={'/logo.png'} width={300} height={38} />
         </div>
