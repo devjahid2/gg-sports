@@ -1,11 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import AboutText from './AboutText';
 
-const WeAre = ({mt}) => {
+const WeAre = ({mt,about}) => {
   
   return (
     <section className={`mt-${mt ? mt : 0} py-6  lg:pl-32 lg:py-24 container lg:flex-row flex-col flex gap-5 xl:gap-10 `}>
+      {
+        about ? <AboutText/> : ''
+      }
       <div className="xl:min-w-[35%] 2xl:min-w-[30%] ">
         <Image alt='weare' src={'/weare.png'} width={500} height={526} />
       </div>
