@@ -6,7 +6,6 @@ import Services from '@/components/Services';
 import Testimonial from '@/components/Testominial';
 import WeAre from '@/components/WeAre';
 import WhatsNew from '@/components/WhatsNew';
-import Image from 'next/image';
 
 export default function Home() {
   return (
