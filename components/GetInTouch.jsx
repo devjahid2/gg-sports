@@ -2,7 +2,7 @@ import React from "react";
 
 const GetInTouch = () => {
   return (
-    <div className="get-in-touch py-12">
+    <div id="contact" className="get-in-touch py-12">
       <div className="container">
         <div className="md:flex items-center justify-between">
           <div>

@@ -36,9 +36,9 @@ export default function WhatsNew() {
           // centeredSlides={true}
           slidesPerView={1}
           loop={true}
-        pagination={{
-          clickable: true,
-        }}
+        // pagination={{
+        //   clickable: true,
+        // }}
         navigation={true}
         modules={[Pagination, Navigation]}
           spaceBetween={30}

@@ -9,13 +9,13 @@ const Footer = ({ className }) => {
         <div className="flex items-center justify-between">
           <div className="flex gap-3">
             <Link target="blank" href={"https://facebook.com"}>
-              <Image width={50} height={50} src={"/footer/facebook.png"} />
+              <Image alt="facebook" width={50} height={50} src={"/footer/facebook.png"} />
             </Link>
             <Link target="blank" href={"https://instagram.com"}>
-              <Image width={50} height={50} src={"/footer/instagram.png"} />
+              <Image alt="instagram" width={50} height={50} src={"/footer/instagram.png"} />
             </Link>
             <Link target="blank" href={"https://twitter.com"}>
-              <Image width={50} height={50} src={"/footer/twitter.png"} />
+              <Image alt="twitter" width={50} height={50} src={"/footer/twitter.png"} />
             </Link>
           </div>
           <h5>GG Sports LTD</h5>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const WeAre = ({mt}) => {
@@ -28,9 +29,11 @@ const WeAre = ({mt}) => {
             relationship built on trust.
           </span>
         </p>
+        <Link href={"/#contact"}>
         <button className="bg-[#E09F3E] my-2 hover:bg-opacity-70 text-xl text-white rounded-lg px-16 py-2">
           CONTACT US
         </button>
+        </Link>
       </div>
     </section>
   );

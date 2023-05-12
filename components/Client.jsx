@@ -11,18 +11,16 @@ import Image from "next/image";
 
 const Client = () => {
   const data = [
-    "/whatus/1.png",
-    "/whatus/2.png",
-    "/whatus/1.png",
-    "/whatus/2.png",
-    "/whatus/1.png",
-    "/whatus/2.png",
-    "/whatus/1.png",
-    "/whatus/2.png",
-    "/whatus/1.png",
-    "/whatus/2.png",
-    "/whatus/1.png",
-    "/whatus/2.png",
+    "/clients/1.png",
+    "/clients/2.png",
+    "/clients/3.png",
+    "/clients/4.png",
+    "/clients/5.png",
+    "/clients/6.png",
+    "/clients/7.png",
+    "/clients/8.png",
+    "/clients/1.png",
+    "/clients/2.png",
   ];
 
   return (

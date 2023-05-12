@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <div className='container'>
+        <div id='contact' className='container'>
             <div className='md:flex justify-between gap-4'>
             <form className='contact-form md:mb-0 mb-10' action="">
                 <h2 className='title text-4xl font-bold after-bg'>CONTACT US </h2>
