@@ -7,7 +7,9 @@ const Header = () => {
   const [leftMenu,setLeftMenu] = useState(false);
 
   return (
-    <div className="block absolute w-full top-0 z-index-2">
+    <>
+    <div onClick={() => setLeftMenu(false)} className={`shadow-overlay ${leftMenu ? 'active':''}`}></div>
+      <div className="block absolute w-full top-0 z-index-2">
       <header className=" py-5 container flex justify-between items-center">
         <nav className={`nav nav-1 ${leftMenu ? 'active':''}`}>
           <ul className="flex gap-5 items-center">
@@ -51,6 +53,7 @@ const Header = () => {
         </div>
       </header>
     </div>
+    </>
   );
 };
 

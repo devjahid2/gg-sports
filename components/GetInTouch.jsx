@@ -29,7 +29,7 @@ const GetInTouch = () => {
               be in touch
             </p>
           </div>
-        </div>F
+        </div>
       </div>
     </div>
   );
