@@ -216,23 +216,20 @@ input {
 .logo-wrap .menu{
   display: none;
 }
-.shadow-overlay {
-  display: none;
-}
+
 .mt-140{
   margin-top: 140px;
 }
 
 @media (max-width:992px) {
-  .shadow-overlay.active {
+  .shadow-overlay {
     position: fixed;
-    background-color: #6c6c6c52;
-    z-index: 1;
+    background-color: rgb(29 29 29 / 81%);
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    z-index:-1
+    z-index: 0;
 }
   .close{
     display:block;
