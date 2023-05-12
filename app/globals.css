@@ -213,6 +213,56 @@ input {
   font-size: 18px;
   width: 50%;
 }
+.logo-wrap .menu{
+  display: none;
+}
+
+@media (max-width:992px) {
+  .close{
+    display:block;
+  }
+  .nav ul{
+    display: block;
+  }
+  .nav ul li{
+    margin-bottom:10px
+  }
+  .nav{
+    position: fixed;
+    left:-250px;
+    transition: .5s;
+    top:0;
+    width:200px;
+    /* padding:15px; */
+    padding: 25px;
+
+  }
+  .nav.active{
+    left:0;
+  }
+  .nav-1{
+    background-color:#2D2C30;
+    height:100vh;
+    box-shadow: 0 2.12866px 10.0172px #1606ac05, 0 1.13052px 5.32008px #1606ac04, 0 0.470434px 2.21381px #1606ac03;
+
+  }
+  .nav-2{
+    top:102px;
+    padding-top:0 ;
+  }
+  .nav-2 li{
+    margin-bottom: 15px;
+  }
+  .logo-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-wrap .menu{
+    display: block;
+  }
+}
 @media (max-width: 767px) {
   .get-in-touch p {
     width: 100%;
