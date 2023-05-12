@@ -8,7 +8,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <WeAre mt={'20'} />
+      <WeAre mt={'70'} />
       <Client/>
       <Services className={'mt-6'}/>
       <GetInTouch/>
